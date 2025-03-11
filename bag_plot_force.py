@@ -21,7 +21,7 @@ def parse_channels(channel_str):
 
 def pwm_to_force(pwm):
     """Convert PWM value to force using the inverse of the given equation."""
-    return (1468 - pwm) / 11
+    return (1468 + pwm) / 11
 
 def smooth_data(data, window=SMOOTHING_WINDOW):
     """Apply a simple moving average to smooth the data."""
