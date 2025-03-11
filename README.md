@@ -2,19 +2,15 @@
 
 A simple tool to extract and visualize **depth data** and **thruster command inputs** from a ROS 2 bag file.
 
-> **⚠️ Update Required:** This script needs major improvements, but hey, give it a try! 
-
 ## How to Use  
 
-1. **Place** your bag file in the same directory as the Python script. _(I'll try to automate this later.)_  
-2. **Run the bag converter** to convert the bag into ~~islam~~ wait, I mean **CSV**.  
-3. **Run the bag plotter** to generate a PNG plot. _(I'll make it save as a PDF soon!)_  
-4. **Modify as needed** by checking the `metadata.yaml` file to read the correct bag info. and adjust the python file accordingly
+1. **Place** all your bag folders inside subfolders within the same directory as the Python script.  
+2. **Run the bag converter** to process all bag files automatically and generate CSV files in their respective folders.  
+3. **Run the bag plotter** to generate and save plots as PDFs in each folder.  
+4. **Modify as needed** by checking the `metadata.yaml` file to adjust settings if necessary.
 
 ---
 
-## ⚡ About This Code  
+## About This Code  
 
-This project is **90% ChatGPT + 10% hopes and dreams**—so good luck! 😆  
-
----
+Now fully automated—just run the scripts, and you're all set!  
