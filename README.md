@@ -9,7 +9,7 @@ A simple tool to extract and visualize **depth data** and **thruster command inp
 1. **Place** your bag file in the same directory as the Python script. _(I'll try to automate this later.)_  
 2. **Run the bag converter** to convert the bag into ~~islam~~ wait, I mean **CSV**.  
 3. **Run the bag plotter** to generate a PNG plot. _(I'll make it save as a PDF soon!)_  
-4. **Modify as needed** by checking the `metadata.yaml` file to read the correct bag info.  
+4. **Modify as needed** by checking the `metadata.yaml` file to read the correct bag info. and adjust the python file accordingly
 
 ---
 
